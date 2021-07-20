@@ -359,33 +359,35 @@ table th{
 }
 
 
-
+.bottom-all{
+  position: relative;
+  margin-bottom: 50px;
+}
 
 .bottom-img{
-  position: relative;
+  position: absolute;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 50px;
-  
+  width:100%;
 } 
 
-
-
-.sentents{
+.bottom{
   position: absolute;
-  text-align: center;
+  display:block;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
-  vertical-align: middle;
-
+  display:flex;
+  margin-left: 650px;
+  margin-top:150px;
 }
+
 
 .last-message{
   text-align: center;
   color: #a5a2a2;
   font-size: 14px;
   padding-bottom: 20px;
+  margin-top: 400px;
 }
 
 .line{
@@ -394,36 +396,41 @@ table th{
   width: 1px;
   height: 30px;
   background-color:rgb(220, 43, 226);
+  margin-bottom: 20px;
 }
 
 .last-btn{
- display: flex;
+ display: relative;
  justify-content: center;
+ margin-bottom: 100px;
+ 
+
 }
 
 .mail{
   display:absolute;
-  width: 20%;
-  height: 20%;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .btn {
   display: absolute;
-  width: 100px;
-  padding: 5px 0;
+  width: 150px;
+  height: 30px;
+  padding: auto 0;
+  padding-top: 15px;
+  padding-left: auto;
+  padding-right: auto;
   color: #fff;
   border-radius: 30px;
   background: linear-gradient(90deg, #e75aac, #be0095);
   text-align: center;
   box-shadow: 0 5px 0 rgba(224, 57, 224, 0.815);
-  display:block;
+  display:flex;
+  font-size: 11px;
 }
-
-
-
-
-
-
 
 
 
@@ -433,12 +440,14 @@ table th{
   height: 50px;
   text-align: center;
   margin-top: 20px;
+  display:block
 
 }
 
 .footer-content{
   font-size: 14px;
   font-weight: lighter;
-  justify-content: center;
-  color:rgb(63, 62, 62)
+  text-align: center;
+  color:rgb(63, 62, 62);
+  padding-top: 15px;
 }
